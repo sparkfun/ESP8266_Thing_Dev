@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -152,10 +152,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="0" y2="25.4" width="0.2032" layer="20"/>
-<wire x1="0" y1="25.4" x2="55.245" y2="25.4" width="0.2032" layer="20"/>
-<wire x1="55.245" y1="25.4" x2="55.245" y2="0" width="0.2032" layer="20"/>
-<wire x1="55.245" y1="0" x2="0" y2="0" width="0.2032" layer="20"/>
+<wire x1="0" y1="-0.127" x2="0" y2="25.527" width="0.2032" layer="20"/>
+<wire x1="0" y1="25.527" x2="55.245" y2="25.527" width="0.2032" layer="20"/>
+<wire x1="55.245" y1="25.527" x2="55.245" y2="-0.127" width="0.2032" layer="20"/>
+<wire x1="55.245" y1="-0.127" x2="0" y2="-0.127" width="0.2032" layer="20"/>
 <text x="1.778" y="24.638" size="1.016" layer="21" font="vector" ratio="15" align="center">OFF</text>
 <text x="8.001" y="24.638" size="1.016" layer="21" font="vector" ratio="15" align="center">ON</text>
 <wire x1="3.175" y1="24.638" x2="6.731" y2="24.638" width="0.2032" layer="21"/>
@@ -1873,7 +1873,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="TRACE_ANTENNA_2.4GHZ_25.7MM">
-<polygon width="0" layer="1">
+<polygon width="0.0254" layer="1">
 <vertex x="-0.23" y="0"/>
 <vertex x="-0.23" y="2.28"/>
 <vertex x="-0.73" y="2.69"/>
@@ -2430,16 +2430,16 @@ design rules under a new name.</description>
 <contactref element="JP6" pad="1"/>
 <contactref element="S1" pad="1"/>
 <polygon width="0.254" layer="16" isolate="0.3048" rank="6">
-<vertex x="0" y="0"/>
-<vertex x="0" y="25.4"/>
-<vertex x="47.625" y="25.4"/>
-<vertex x="47.625" y="0"/>
+<vertex x="0" y="-0.127"/>
+<vertex x="0" y="25.527"/>
+<vertex x="47.625" y="25.527"/>
+<vertex x="47.625" y="-0.127"/>
 </polygon>
 <polygon width="0.254" layer="1" isolate="0.3048" rank="6">
-<vertex x="0" y="25.4"/>
-<vertex x="0" y="0"/>
-<vertex x="47.625" y="0"/>
-<vertex x="47.625" y="25.4"/>
+<vertex x="0" y="25.527"/>
+<vertex x="0" y="-0.127"/>
+<vertex x="47.625" y="-0.127"/>
+<vertex x="47.625" y="25.527"/>
 </polygon>
 <via x="34.29" y="15.24" extent="1-16" drill="0.381"/>
 <via x="34.29" y="16.256" extent="1-16" drill="0.381"/>
@@ -3178,14 +3178,14 @@ design rules under a new name.</description>
 <approved hash="4,1,4bcd15ae2132693f"/>
 <approved hash="4,1,f17a2394317f9b2c"/>
 <approved hash="4,1,7658a24a8f5db6c7"/>
-<approved hash="19,1,723f2c07245f7a67"/>
-<approved hash="19,1,7bf725cf27f779cf"/>
 <approved hash="19,1,79bb278325f37bcb"/>
+<approved hash="19,1,7bf725cf27f779cf"/>
+<approved hash="19,1,723f2c07245f7a67"/>
 <approved hash="19,1,edb8af80adcaeff2"/>
 <approved hash="19,1,eff4adccafceedf6"/>
 <approved hash="19,1,e63ca404ac66ee5e"/>
-<approved hash="19,1,f9babf82bdccfbf4"/>
 <approved hash="19,1,f23eb406bc60fa58"/>
+<approved hash="19,1,f9babf82bdccfbf4"/>
 <approved hash="19,1,fbf6bdcebfc8f9f0"/>
 <approved hash="19,1,f2a373055f840ef2"/>
 <approved hash="5,1,61e16e4f12ceb0a4"/>
