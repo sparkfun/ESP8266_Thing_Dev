@@ -21,6 +21,9 @@ Documentation
 
 Product Versions
 ----------------
+
+* [KIT-15259](https://www.sparkfun.com/products/15259)- ESP8266 Thing Development Board in a starter kit.
+* [WRL-13804](https://www.sparkfun.com/products/13804)- ESP8266 Thing Development Board with headers.
 * [WRL-13711](https://www.sparkfun.com/products/13711)- V1.0 release of the ESP8266 Thing Development Board.
 
 
